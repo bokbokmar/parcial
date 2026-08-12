@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3479207787403155857}
   m_Layer: 0
   m_Name: Obstaculo alto
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 52b42dae3b674fa42bbc0524b974733f, type: 2}
+  - {fileID: 2100000, guid: 18ca95570ea06224ca1b4fb31b9aa451, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

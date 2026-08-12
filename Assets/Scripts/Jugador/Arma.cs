@@ -22,7 +22,7 @@ public class Arma : MonoBehaviour
         {
             GameObject balita = Instantiate(bala, puntoDisparito.position, puntoDisparito.rotation);
             Rigidbody rbBala = balita.GetComponent<Rigidbody>();
-            rbBala.AddForce(puntoDisparito.forward * fuerza);
+            rbBala.AddForce(puntoDisparito.right * fuerza);
             Destroy(balita,5f);
         }
     }
